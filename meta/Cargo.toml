@@ -1,5 +1,5 @@
 [package]
-name = "egld-esdt-swap-abi"
+name = "egld-esdt-swap-meta"
 version = "0.0.0"
 edition = "2018"
 publish = false
