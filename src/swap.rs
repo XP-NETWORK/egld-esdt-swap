@@ -150,7 +150,7 @@ pub trait EgldEsdtSwap: elrond_wasm_modules::pause::PauseModule {
     // storage
 
     #[view(getWrappedEgldTokenIdentifier)]
-    #[storage_mapper("wrappedEgldTokenId")]
+    #[storage_mapper("wrapped_egld_token_id")]
     fn wrapped_egld_token_id(&self) -> SingleValueMapper<TokenIdentifier>;
 
     // events
